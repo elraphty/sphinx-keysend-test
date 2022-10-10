@@ -81,12 +81,15 @@ const loadLightning = () => {
       var lnrpcDescriptor = grpc.load("proto/rpc.proto");
       var lnrpc = lnrpcDescriptor.lnrpc
       lightningClient = new lnrpc.Lightning(config.node_ip + ':' + config.lnd_port, credentials);
+      
       return lightningClient
     } catch (e) {
       throw e
     }
   }
 }
+
+loadLightning();
 
 module.exports = {
   keysend, getMyPubKey, loadCredentials, loadLightning, SPHINX_CUSTOM_RECORD_KEY

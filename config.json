@@ -1,9 +1,9 @@
 {
   "development":{
-    "macaroon_location": "/Users/evanfeenstra/code/lnd-dev/bob/data/chain/bitcoin/simnet/",
-    "tls_location": "/Users/evanfeenstra/Library/Application Support/Lnd/tls.cert",
-    "node_ip": "127.0.0.1",
-    "lnd_port": "10002"
+    "macaroon_location": "/Users/apple/Desktop/Sphinx/sphinx-stack/cln/raphlnd/raph/data/chain/bitcoin/regtest/",
+    "tls_location": "/Users/apple/Desktop/Sphinx/sphinx-stack/cln/raphlnd/raph/tls.cert",
+    "node_ip": "localhost",
+    "lnd_port": "10009"
   },
   "production":{
     "macaroon_location": "/relay/.lnd/data/chain/bitcoin/mainnet/",
